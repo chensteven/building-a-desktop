@@ -34,6 +34,11 @@
 
 ### 2. Install Windows 10 and Ubuntu 18.04 on different hard drives
 
+#### Windows
+
+#### Ubuntu
+Use the free space to create root drive (mount point at / with primary partition, beginning location and Ext4), home drive (mount point at /home with primary partition, beginning location and Ext4), swap (with half of your memory stick MB, logical partition, beginning location and swap), and EFI with 500MB
+
 Tips and Tricks:
 
 *For UEFI/Bios*
@@ -45,4 +50,4 @@ Tips and Tricks:
 
 *For Ubuntu Installation*
 
-- Go to edit mode and add nomodeset after ... quiet splash
+- If you are stuck at "failed to create kernel channel", then go to edit mode upon bootup and add nomodeset after "... quiet splash"
