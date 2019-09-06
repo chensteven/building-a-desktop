@@ -37,7 +37,14 @@
 #### Windows
 
 #### Ubuntu
-Use the free space to create root drive (mount point at / with primary partition, beginning location and Ext4), home drive (mount point at /home with primary partition, beginning location and Ext4), swap (with half of your memory stick MB, logical partition, beginning location and swap), and EFI with 500MB
+
+1. Use the free space to create root drive (mount point at / with primary partition, beginning location and Ext4), home drive (mount point at /home with primary partition, beginning location and Ext4), swap (with half of your memory stick MB, logical partition, beginning location and swap), and EFI with 500MB
+
+2. Install Nvidia Display Driver
+```
+sudo apt-get-repository ppa:graphics-drivers/ppa
+sudo apt install nvidia-settings nvidia-driver-418
+```
 
 Tips and Tricks:
 
