@@ -58,4 +58,4 @@ Tips and Tricks:
 *For Ubuntu Installation*
 
 - If you are stuck at "failed to create kernel channel", then go to edit mode upon bootup and add nomodeset after "... quiet splash"
-- If your mouse and keyboard is slow at login screen, then most likely it has to do with your new video card. Also add nomodeset after "... quiet splash"
+- If your mouse and keyboard is slow at login screen, then most likely it has to do with your new video card. Also add nomodeset after "... quiet splash". More information can be found here if login problem persists: https://gist.github.com/alexlee-gk/76a409f62a53883971a18a11af93241b
