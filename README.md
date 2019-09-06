@@ -42,3 +42,7 @@ Tips and Tricks:
 *For Windows Installation*
 
 - If anytime the installation fails, using diskpart in Command Prompt can help you clean, format, partition or even convert your hard drives from MBR to GPT and vice versa.
+
+*For Ubuntu Installation*
+
+- Go to edit mode and add nomodeset after ... quiet splash
