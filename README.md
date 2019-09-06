@@ -41,10 +41,14 @@
 1. Use the free space to create root drive (mount point at / with primary partition, beginning location and Ext4), home drive (mount point at /home with primary partition, beginning location and Ext4), swap (with half of your memory stick MB, logical partition, beginning location and swap), and EFI with 500MB
 
 2. Install Nvidia Display Driver
+General rule here is to go on the website and find the appropriate driver for your video card version. Double check the version number.
+
+Go to terminal and type in:
 ```
 sudo apt-get-repository ppa:graphics-drivers/ppa
-sudo apt install nvidia-settings nvidia-driver-418
 ```
+
+Then go to Software Updates and Additional Drivers tab to see if the above version number is there. If so, click Apply Changes on it.
 
 Tips and Tricks:
 
